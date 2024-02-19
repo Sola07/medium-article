@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-weight: light;
+  color: #494949;
+}
+
+.banner h1 {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1707535484481-9be3f889e49c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+div {
+  display: block  ;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: #636363;
+  font-size: 25px;
+  font-style: italic;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+a:hover {
+  background: rgb(253,187,45);
+  background: linear-gradient(0deg, rgba(253,187,45,1) 100%, rgba(34,193,195,1) 100%);
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
